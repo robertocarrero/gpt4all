@@ -1128,7 +1128,7 @@ QtObject {
             case MySettingsEnums.ChatTheme.LegacyDark:
             case MySettingsEnums.ChatTheme.Dark:
             default:
-                return textColor
+                return gray950 // change: UI LIGHT THEME FIX: making code darker for contrast in codeblocks issue
         }
     }
 
@@ -1208,7 +1208,7 @@ QtObject {
             case MySettingsEnums.ChatTheme.Dark:
                 return controlBackground
             default:
-                return gray100
+                return white // // change: UI LIGHT THEME FIX: making background lighter for contrast in codeblocks issue
         }
     }
 
